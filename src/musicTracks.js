@@ -57,12 +57,14 @@ const musicTracks = [
       title: "Tropical",
       artist: "Summer",
       audioSrc: require("../src/audioFiles/tropical-summer.mp3")
-  }
+  },
+
   {
       title: "About-fontans-1",
       artist: "Noname",
       audioSrc: require("../src/audioFiles/about-fontans-1.wav")
-  }
+  },
+  
   {
       title: "About-fontans-2",
       artist: "Yarema",
