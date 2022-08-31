@@ -1,13 +1,13 @@
+import GeoLocationView from './components/geolocation';
+import AudioPlayer from './components/audioplayer';
+import tracks from './musicTracks';
 import './App.css';
-import AudioPlayerVeaw from './components/AudioPlayerVeaw';
-import GeoLocationVeaw from './components/GeoLocationVeaw';
 
 function App() {
   return (
     <div className="App">
-      App
-      <AudioPlayerVeaw />
-      <GeoLocationVeaw />
+      <AudioPlayer tracks={tracks} />
+      <GeoLocationView />
     </div>
   );
 }
