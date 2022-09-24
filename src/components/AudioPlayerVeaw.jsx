@@ -1,10 +1,11 @@
-import React from 'react';
-import AudioPlayerModal from './AudioPlayerModel';
+import React from 'react'
+import AudioPlayerModal from './AudioPlayerModel'
 
 const AudioPlayerVeaw = () => {
-
   return (
-    <div><AudioPlayerModal /> </div>
+    <div>
+      <AudioPlayerModal />{' '}
+    </div>
   )
 }
 

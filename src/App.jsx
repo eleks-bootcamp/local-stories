@@ -3,6 +3,7 @@ import AudioPlayerVeaw from './components/AudioPlayerVeaw';
 import GeoLocationVeaw from './components/GeoLocationVeaw';
 
 function App() {
+  console.log('knknnknk');
   return (
     <div className="App">
       App
